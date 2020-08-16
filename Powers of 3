@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/57be674b93687de78c0001d9/train/javascript
+
+function largestPower(n){
+ let k = 0;
+  let i = 1;
+  while(i < n ){
+    i= i * 3;
+    k++;
+}
+  return k-1;
+}
